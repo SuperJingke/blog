@@ -1,0 +1,160 @@
+:root {
+    --col-bg: #FFF3D6;
+    --col-on-bg: #333333;
+    --col-accent-a: #935252;
+    --col-on-accent-a: #A775B2;
+    --container-w1: 50em; 
+    --animation-speed-sec : 1;
+    --font-logo :'Indie Flower', cursive;
+
+    /* [...etc] */
+    --font-a: 'Roboto',arial, helvetica, sans-serif;
+    /* [...etc] */
+    --spacing: 1em;
+ }
+ 
+ body {
+    background-color: var(--col-bg);
+    color: var(--col-on-bg);
+    font-family: var(--font-a);
+    line-height: var(--spacing);
+    margin: auto;
+    box-sizing: border-box;
+
+ }
+figure{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 0.2em;
+
+}
+
+header{
+    background-image: url('https://images.unsplash.com/photo-1486021479598-b8f84e644642?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3291&q=80');
+    width:auto;
+    min-height:auto;
+    padding:  1em 1em 0 1em;
+
+}
+
+.nav-main{
+    
+    border-radius: 5px;
+    
+}
+
+.nav-main ul li{
+    display: inline-block;
+
+
+}
+
+.nav-main a{
+    text-decoration: none;
+    color: black;
+    background-color: cornsilk;
+    padding: 0.2em;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.nav-main a:hover{
+    background-color: darkslategray;
+    color: white;
+}
+.nav-main ul {
+    text-align: right;
+}
+blockquote{
+    border: thin,black;
+
+}
+
+.content-center {
+    max-width: 60em;
+    margin: auto;
+    padding: 0 3em 0 3em;
+    
+}
+
+.related-box{
+    background-color: white;
+    border-radius: 5%;
+    padding: 2em;
+    display: inline-block;
+    max-width: 12em;
+}
+
+.related-box img{
+    width: 100%;
+}
+
+img {
+    max-width: 60em;
+}
+
+.footer-nav ul li{
+    display: inline;
+    
+
+}
+.footer-nav ul{
+    text-align: right;
+}
+.footer-bg{
+    background-color: lightblue;
+}
+
+
+.index-box{
+    display: flex;
+    width: auto;
+    margin: auto;
+    max-width: 60em;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 1em;
+    align-items: flex-start;
+
+}
+.div-img{
+    flex-basis: 30%;
+    
+
+}
+
+.div-img img {
+    width: 100%;
+    
+}
+
+.div-text{
+    flex-basis: 70%;
+    padding: 0.5em;
+}
+
+
+.div-text h2{
+    flex-grow: 1;
+    text-align: left;
+
+}
+.div-text a:active{
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    padding: 0.2em;
+    text-decoration: none;
+}
+
+.div-text a{
+    color: lightcoral;
+    background-color: white;
+    border-radius: 2px;
+    padding: 0.2em;
+    text-decoration: none;
+}
+.div-text a:hover{
+    background-color: #935252;
+}
