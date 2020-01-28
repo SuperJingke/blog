@@ -66,6 +66,17 @@ header{
 .nav-main ul {
     text-align: right;
 }
+
+.nav-main form label{
+    text-decoration: none;
+    color: black;
+    background-color: cornsilk;
+    padding: 0.2em;
+    display: inline-block;
+    border-radius: 3px;
+    border-radius: 5%;
+
+}
 blockquote{
     border: thin,black;
 
