@@ -2,23 +2,38 @@
 <html lang="en">
 <head>
     <title>Blog</title>
-    <link rel="stylesheet" href="css/story.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fd1beb02b6.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
 
     <header>
-        <div class="header-content" >
+        <div class="content-center" >
             <h1>Blogs</h1>
-             <a href="./index.html"><img src="https://img.icons8.com/clouds/100/000000/comments.png" alt="LOGO"><strong class="title-logo-1">BLOG</strong><strong class="title-logo-2">TITLE</strong></a> 
+             <a href="./index.html"><img src="https://img.icons8.com/clouds/100/000000/comments.png" alt="LOGO"></a> 
         </div>
-            
+        
+        <nav class="nav-main">
+            <ul>
+                <li>
+                    <a href="#">Home </a>
+                </li>
+                <li>
+                    <a href="#">stories </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-search"></i>search</a>
+                </li>
+            </ul>
+        </nav>
     </header>
    
    <main>
-        <section>
+        <section class="content-center">
             <h2>Story 1</h2>
             <h3>2020-01-01 - Dr.Strange -Earth Science</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dicta temporibus adipisci vero nam, sapiente modi doloremque recusandae eveniet dolorum nesciunt cum eum voluptatum corrupti porro voluptates commodi, ea ex.</p>
@@ -29,40 +44,63 @@
 
         </section>
 
-        <section>
+
+        <section class="content-center">
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis quasi ex temporibus excepturi magnam eum eos soluta incidunt, <strong>Lorem, ipsum.</strong> ea fugit, voluptatem cumque ullam odio neque debitis minima! At eveniet debitis aperiam veritatis magnam ut nisi nam ad et quae totam, voluptatibus quod consequatur deserunt consectetur, expedita, iure omnis distinctio. Commodi assumenda accusantium eveniet, amet ipsam ullam debitis itaque? Beatae delectus commodi illum inventore veritatis doloremque laudantium voluptatum mollitia possimus ducimus illo, cupiditate pariatur aperiam repellendus, ex quidem ipsa neque officia quam! Accusamus velit fugit, sit blanditiis magni quod possimus veniam optio quibusdam qui, deleniti earum nostrum distinctio corporis!</p>
+            
             <h3>Lorem, ipsum dolor.</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, obcaecati necessitatibus suscipit minima quis aperiam est. Velit quo nostrum quibusdam excepturi necessitatibus ipsam, consectetur expedita, libero veniam aspernatur reprehenderit, et ratione pariatur voluptatum corrupti voluptatem voluptates eum! Molestiae id eos similique vitae? Sunt odio voluptatibus natus veritatis exercitationem. Quasi ipsam tempore commodi dignissimos esse exercitationem doloremque saepe minus earum sunt dolorum recusandae beatae dicta et, ad pariatur magni ducimus alias nesciunt odio? Odit quae, corporis numquam accusantium ratione eius veritatis.</p>
             <blockquote cite="#"><p> ipsum dolor sit amet consectetur adipisicing elit. Dicta illo minima at rerum explicabo sit provident. Eaque consectetur sapiente accusamus.</p>
             <footer>-Lorem ipsum, <cite>lorem magazine</cite></footer>
             </blockquote>
         </section>
-        <section>
+        <section class="content-center">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis modi earum quasi corrupti sed dolor eaque? Facere unde at illum quis aperiam qui exercitationem, earum rem doloremque vel molestias dignissimos a dolorem ratione sapiente consectetur nobis quia. Possimus, qui excepturi!</p>
             <h3>Lorem, ipsum dolor.</h3>
             <p>Using <abbr title="HyperText Markup Language">HTML</abbr>, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, ex voluptas eligendi <code>print()</code> officiis vel qui molestiae dolor sit, rerum minima adipisci velit natus quidem, saepe excepturi sequi voluptatem nobis. Veniam esse ipsa nam tempora corrupti. Quia exercitationem <q>I am doing a project with JR.</q> tempore, possimus illum culpa voluptatibus alias quas ipsam perferendis fugit! Explicabo corrupti soluta omnis similique odit, tempora fuga labore, numquam, quia veritatis quasi?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae quod amet praesentium suscipit itaque distinctio reprehenderit a ea. Soluta blanditiis ea repudiandae hic nemo, numquam molestiae ut, officiis ullam illo at cumque eius cum asperiores vero quis, natus accusamus nesciunt eos porro impedit doloremque inventore? Velit praesentium accusamus aspernatur voluptatum veritatis nesciunt! Asperiores unde blanditiis natus velit minima consequuntur aliquid accusamus molestias eaque, porro sequi recusandae qui aliquam repellat a, eum quae ut numquam quia esse corrupti magni voluptatibus. Ea alias ducimus recusandae, quod doloribus ipsum? Dolores eos, similique mollitia vel eaque ea velit blanditiis nisi magni facilis, autem explicabo itaque, officia atque saepe tempore et unde quam sit doloribus incidunt a consequatur ratione ipsa? Dicta at eveniet eligendi!</p>
         </section>
-        <aside>
+        <aside class="content-center">
             <h2>Related stories</h2>
-            <ul class="related-list">
-                <li><a href="#"><img src="" alt="story-image">story 1</a></li>
-                <li><a href="#"><img src="" alt="story-image">story 2</a></li>
-                <li><a href="#"><img src="" alt="story-image">story 3</a></li>
-                
-            </ul>
-            
+            <div class="related-box">
+                <h3>Story 2</h3>
+                <a href="#">
+                <img src="https://images.unsplash.com/photo-1503751071777-d2918b21bbd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80" alt="Story #2">
+                </a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi mollitia dignissimos officia laboriosam numquam animi.</p>
+               
+            </div>
+            <div class="related-box">
+                <h3>Story 3</h3>
+                <a href="#">
+                <img src="https://images.unsplash.com/photo-1503751071777-d2918b21bbd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80" alt="Story #2">
+                </a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi mollitia dignissimos officia laboriosam numquam animi.</p>
+               
+            </div>
+            <div class="related-box">
+                <h3>Story 4</h3>
+                <a href="#">
+                <img src="https://images.unsplash.com/photo-1503751071777-d2918b21bbd9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80" alt="Story #2">
+                </a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi mollitia dignissimos officia laboriosam numquam animi.</p>
+               
+            </div>
         </aside>
 
    </main>
-   <footer>
-    <ul>
-        <li><a href="#"><img class="img-social" src="https://img.icons8.com/cotton/64/000000/twitter.png" alt="twitter"></a></li>
-        <li><a href="#"><img class="img-social" src="https://img.icons8.com/cotton/64/000000/instagram.png" alt="instagram"></a></li>
-        <li><a href="#"><img class="img-social" src="https://img.icons8.com/cotton/64/000000/facebook.png" alt="facebook"></a></li>
-        
-    </ul>
-   </footer>
+   <div class="footer-bg">
+       <footer class="content-center">
+           <nav class="footer-nav">
+               <ul>
+                   <li><a href="#"><img class="img-social" src="https://img.icons8.com/cotton/64/000000/twitter.png" alt="twitter"></a></li>
+                   <li><a href="#"><img class="img-social" src="https://img.icons8.com/cotton/64/000000/instagram.png" alt="instagram"></a></li>
+                   <li><a href="#"><img class="img-social" src="https://img.icons8.com/cotton/64/000000/facebook.png" alt="facebook"></a></li>
+                   
+               </ul>
+           </nav>
+       </footer>
+   </div>
 </body>
 </html>
