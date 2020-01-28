@@ -89,12 +89,21 @@ blockquote{
     
 }
 
+.related {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
 .related-box{
+    box-sizing: border-box;
     background-color: white;
     border-radius: 5%;
     padding: 2em;
-    display: inline-block;
-    max-width: 12em;
+    /* display: inline-block; */
+    /* max-width: 33.33%; */
+    /* width: 33.333%; */
+    flex-basis: 33.3333%;
 }
 
 .related-box img{
@@ -168,4 +177,22 @@ img {
 }
 .div-text a:hover{
     background-color: #935252;
+}
+
+
+
+
+
+
+@media screen and (min-width: 40em) {
+    .related-box {
+        flex-basis: 25%;
+    }
+}
+
+
+@media screen and (min-width: 60em) {
+    .related-box {
+        flex-basis: 20%;
+    }
 }
